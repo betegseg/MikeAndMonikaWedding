@@ -1,25 +1,51 @@
 * {
-  padding: none;
-  margin: none;
+  padding: 0;
+  margin: 0;
 }
 html, body {
   height: 100%;
 }
 
 body {
-  background-color: aqua;
+  background-color: white;
 }
 
-.parallax{
+.splash{
   /* The image used */
-  background-image: url("img_parallax.jpg");
-
-  /* Full height */
-  height: 100%;
-
+  background-image: url("images/header1.png");
+  min-height: 100%;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.caption {
+  position: absolute;
+  left: 0;
+  top: 75%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+.scroll{
+  position: absolute;
+  left: 0;
+  top: 97%;
+  width: 100%;
+  text-align: center;
+  color: white;
+  opacity: 80%;
+}
+@media only screen and (max-device-width: 1366px) {
+  .splash {
+    background-attachment: scroll;
+  }
 }
