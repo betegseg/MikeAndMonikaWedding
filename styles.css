@@ -23,17 +23,16 @@ body {
 .caption {
   position: absolute;
   left: 0;
-  top: 75%;
+  top: 65%;
   width: 100%;
   text-align: center;
   color: #000;
 }
 .caption span.border {
-  background-color: #111;
+  /* background-color: #111; */
   color: #fff;
   padding: 18px;
-  font-size: 25px;
-  letter-spacing: 10px;
+  font-size: 64px;
 }
 .scroll{
   position: absolute;
@@ -44,6 +43,22 @@ body {
   color: white;
   opacity: 80%;
 }
+.block {
+  background-color: white;
+  width: 100%;
+}
+.charm-regular {
+  font-family: "Charm", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.charm-bold {
+  font-family: "Charm", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+
 @media only screen and (max-device-width: 1366px) {
   .splash {
     background-attachment: scroll;
