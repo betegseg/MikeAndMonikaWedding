@@ -3,7 +3,9 @@
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-html, body {
+
+html,
+body {
   height: 100%;
 }
 
@@ -11,7 +13,7 @@ body {
   background-color: white;
 }
 
-.splash{
+.splash {
   /* The image used */
   background-image: url("images/splashimage.jpeg");
   /* background-color: aqua; */
@@ -22,12 +24,14 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .caption {
   display: flex;
   flex-direction: column;
   text-align: center;
   color: #000;
 }
+
 .caption span.border {
   /* background-color: #111; */
   color: black;
@@ -35,10 +39,12 @@ body {
   font-size: 64px;
   text-align: center;
 }
+
 .caption span.date {
   font-size: 48px;
 }
-.scroll{
+
+.scroll {
   text-align: center;
   color: white;
   background-color: gray;
@@ -50,11 +56,13 @@ body {
   border-radius: 20px;
   min-width: 100px;
 }
+
 .block {
   background-color: white;
   width: 100%;
   min-height: 500px;
 }
+
 form {
   width: auto;
   padding: 10px;
@@ -66,7 +74,9 @@ form label {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-input[type=text], input[type=email], input[type=textArea]{
+input[type=text],
+input[type=email],
+input[type=textArea] {
   padding: 10px;
   border: 2px solid black;
   border-radius: 10px;
@@ -74,10 +84,12 @@ input[type=text], input[type=email], input[type=textArea]{
   margin-bottom: 10px;
   width: 300px;
 }
-input[type=textArea]{
+
+input[type=textArea] {
   min-height: 40px;
   width: 300px;
 }
+
 form button {
   display: block;
   margin: 10px auto;
@@ -87,8 +99,9 @@ form button {
   background-color: black;
   color: white;
   border-radius: 20px;
-  border:none;
+  border: none;
 }
+
 .charm-regular {
   font-family: "Charm", cursive;
   font-weight: 400;
@@ -100,23 +113,28 @@ form button {
   font-weight: 700;
   font-style: normal;
 }
-.flex{
+
+.flex {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.splitleft{
+
+.splitleft {
   text-align: center;
   margin-top: 20px;
 }
-.splitleft p{
+
+.splitleft p {
   padding: 10px;
   margin-top: 10px;
 }
-.splitleft h1{
+
+.splitleft h1 {
   padding: 10px;
 }
+
 @media only screen and (max-device-width: 1366px) {
   .splash {
     background-attachment: scroll;
