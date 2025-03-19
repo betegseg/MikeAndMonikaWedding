@@ -28,6 +28,8 @@
     <form action="https://fabform.io/f/82Q6jDl" method="post">
       <label for="fullName">Full Name</label><br />
       <input name="fullName" type="text" required><br />
+      <label for="phone">Phone Number</label><br />
+      <input name="phone" type="text" required pattern="[0-9]{10}$" title="10 digits only."><br />
       <label>RSVP?</label>
       <input type="radio" id="yes" name="RSVP" value="Yes">
       <label for="yes">Yes</label>
